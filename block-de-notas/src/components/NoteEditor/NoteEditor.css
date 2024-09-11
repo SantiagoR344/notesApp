@@ -1,0 +1,46 @@
+.note-editor {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.note-editor input, .note-editor textarea {
+    background-color: #374151;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.note-editor textarea {
+    min-height: 150px;
+}
+
+.note-editor .editor-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-editor .editor-actions button {
+    background-color: #10b981;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.note-editor .editor-actions button.cancel {
+    background-color: #ef4444;
+}
+
+.note-editor .editor-actions button:hover {
+    opacity: 0.9;
+}
